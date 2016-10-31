@@ -2,19 +2,14 @@
 module.exports = {
   'development': {
     'facebook': {
-      'consumerKey': '...',
-      'consumerSecret': '...',
-      'callbackUrl': '...'
+      'clientID': '1820775691527600',
+      'clientSecret': '5096c2bc9c4284e2c7903ee324f0408c',
+      'callbackUrl': 'http://social-authenticator.com:8000/auth/facebook/callback'
     },
     'twitter': {
-      'consumerKey': 'OaPwwyfXjd8WkPzPEWPlpT6Fs',
-      'consumerSecret': '...',
-      'callbackUrl': 'http://social-authenticator.com:8000/auth/twitter/callback'
-    },
-    'google': {
-      'consumerKey': '446585441765-unda5mjs6307q1pqobvhiqj87m9m2kh1.apps.googleusercontent.com',
-      'consumerSecret': '...',
-      'callbackUrl': 'http://social-authenticator.com:8000/auth/google/callback'
+      'consumerKey': 'oIcCEwKgtVWRjFAp7DW2YLzJa',
+      'consumerSecret': 't0vIFv7xBwlyIjzPBjFbU1eGrVaqJjkExjKA2mT5ESot861DNq',
+      'callbackUrl': 'http://social-authenticator.com:8080/auth/twitter/callback'
     }
   }
 }
